@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Weather App",
       home: SplashScreen(),
-      theme: ThemeData(),
+      theme: ThemeData(
+        primarySwatch: Colors.brown
+      ),
       debugShowCheckedModeBanner: false,
     );
   }
